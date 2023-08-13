@@ -19,12 +19,12 @@
 //               print("Error setting audio session category:", error)
 //           }
 //       }
-//    
+//
 //    let persistenceController = PersistenceController.shared
 //
 //    var body: some Scene {
 //        WindowGroup {
-//  
+//
 //            MainView()
 //                .environmentObject(CurrentMusicData())
 //                .environmentObject(CurrentData())
