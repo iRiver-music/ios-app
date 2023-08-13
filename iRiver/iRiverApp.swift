@@ -44,10 +44,7 @@ struct iRiverApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     var body: some Scene {
         WindowGroup {
-//            MainControl()
-            MainView()
-                .environmentObject(CurrentMusicData())
-                .environmentObject(CurrentData())
+            TestControl()
         }
     }
 }
