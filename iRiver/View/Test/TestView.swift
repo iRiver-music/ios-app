@@ -27,9 +27,14 @@ struct TestView: View {
                 }
                 if let token = token {
                     let uid = getCurrentFirebaseUID()!
+                    let invited_by_code = "dbd2707a-0c74-4e80-b035-a743961a507f"
+                    let username = "test0813"
+//                    let uid = "123"
 //                    print("獲取到的  UID  =>", uid)
 //                    print("獲取到的 ID Token：", token)
-                    postUserData(firebaseToken: token, uid: uid) { result in
+                    
+//                    getUserData postUserData
+                    postUserData(firebaseToken: token, uid: uid,invited_by_code: invited_by_code,username: username) { result in
                         switch result {
                         case .success(let data):
                             self.resultText = "Success: \(data)"
