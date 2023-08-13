@@ -158,8 +158,8 @@
 				93DCA9FA2A88812500B0AA3E /* Image.swift */,
 				93DCA9F92A88812500B0AA3E /* SwiftUIView.swift */,
 				93DCA9EA2A887A4900B0AA3E /* GoogleService-Info.plist */,
-				93DCA9D92A88791800B0AA3E /* APIConfig.swift */,
 				93DCA9D82A88791800B0AA3E /* apple-app-site-association.geojson */,
+				93DCA9D92A88791800B0AA3E /* APIConfig.swift */,
 				93DCA9D62A88790200B0AA3E /* Get_IDLib.swift */,
 			);
 			path = Lib;
@@ -271,9 +271,9 @@
 		D91C4C6D2A8790F1009EA2BE /* iRiver */ = {
 			isa = PBXGroup;
 			children = (
+				93DCA9EC2A887A6800B0AA3E /* Info.plist */,
 				93DCAA2A2A8882D800B0AA3E /* ??? */,
 				93DCAA022A88816C00B0AA3E /* ModelView */,
-				93DCA9EC2A887A6800B0AA3E /* Info.plist */,
 				93DCA9D52A88789D00B0AA3E /* Lib */,
 				93DCA9D42A88786C00B0AA3E /* Model */,
 				93DCA9D32A88785F00B0AA3E /* View */,
