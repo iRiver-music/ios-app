@@ -28,7 +28,6 @@
 		93DCA9FC2A88812500B0AA3E /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DCA9F92A88812500B0AA3E /* SwiftUIView.swift */; };
 		93DCA9FD2A88812500B0AA3E /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DCA9FA2A88812500B0AA3E /* Image.swift */; };
 		93DCAA002A88814B00B0AA3E /* models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DCA9FE2A88814B00B0AA3E /* models.swift */; };
-		93DCAA012A88814B00B0AA3E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DCA9FF2A88814B00B0AA3E /* Persistence.swift */; };
 		93DCAA072A88818500B0AA3E /* FetchImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DCAA032A88818500B0AA3E /* FetchImage.swift */; };
 		93DCAA082A88818500B0AA3E /* MusicUNNotificationAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DCAA042A88818500B0AA3E /* MusicUNNotificationAttachment.swift */; };
 		93DCAA092A88818500B0AA3E /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DCAA052A88818500B0AA3E /* MusicPlayer.swift */; };
@@ -72,7 +71,6 @@
 		93DCA9F92A88812500B0AA3E /* SwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		93DCA9FA2A88812500B0AA3E /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		93DCA9FE2A88814B00B0AA3E /* models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = models.swift; sourceTree = "<group>"; };
-		93DCA9FF2A88814B00B0AA3E /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		93DCAA032A88818500B0AA3E /* FetchImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchImage.swift; sourceTree = "<group>"; };
 		93DCAA042A88818500B0AA3E /* MusicUNNotificationAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicUNNotificationAttachment.swift; sourceTree = "<group>"; };
 		93DCAA052A88818500B0AA3E /* MusicPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
@@ -145,7 +143,6 @@
 			isa = PBXGroup;
 			children = (
 				93DCA9FE2A88814B00B0AA3E /* models.swift */,
-				93DCA9FF2A88814B00B0AA3E /* Persistence.swift */,
 				93DCA9DE2A88792E00B0AA3E /* UserModel.swift */,
 			);
 			path = Model;
@@ -384,7 +381,6 @@
 			files = (
 				93DCAA082A88818500B0AA3E /* MusicUNNotificationAttachment.swift in Sources */,
 				93DCA9FC2A88812500B0AA3E /* SwiftUIView.swift in Sources */,
-				93DCAA012A88814B00B0AA3E /* Persistence.swift in Sources */,
 				93DCAA262A88828700B0AA3E /* musicPlayerView.swift in Sources */,
 				93DCAA202A88824700B0AA3E /* SearchView.swift in Sources */,
 				93DCAA1A2A8881AF00B0AA3E /* homeView.swift in Sources */,
