@@ -53,6 +53,15 @@
 		D91C4C762A8790F2009EA2BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91C4C752A8790F2009EA2BE /* Preview Assets.xcassets */; };
 		D91C4C782A8790F2009EA2BE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91C4C772A8790F2009EA2BE /* Persistence.swift */; };
 		D91C4C7B2A8790F2009EA2BE /* iRiver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D91C4C792A8790F2009EA2BE /* iRiver.xcdatamodeld */; };
+		D9A716332A8A102400A09337 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A716322A8A102400A09337 /* DiscoverView.swift */; };
+		D9A716362A8A1F1700A09337 /* NavigationBar .swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A716352A8A1F1700A09337 /* NavigationBar .swift */; };
+		D9A716382A8A266100A09337 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A716372A8A266100A09337 /* Main.swift */; };
+		D9A7163A2A8A279900A09337 /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A716392A8A279900A09337 /* ScrollView.swift */; };
+		D9A7163D2A8A2B1100A09337 /* DiscoverCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A7163C2A8A2B1100A09337 /* DiscoverCard.swift */; };
+		D9A716422A8A5B4300A09337 /* FASwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = D9A716412A8A5B4300A09337 /* FASwiftUI */; };
+		D9A716442A8A62F700A09337 /* DiscoverLableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A716432A8A62F700A09337 /* DiscoverLableScrollView.swift */; };
+		D9A716472A8A65FE00A09337 /* DiscoverMusicList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A716462A8A65FE00A09337 /* DiscoverMusicList.swift */; };
+		D9C8F8CD2A89233300F79E17 /* conf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C8F8CC2A89233300F79E17 /* conf.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +106,14 @@
 		D91C4C752A8790F2009EA2BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D91C4C772A8790F2009EA2BE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		D91C4C7A2A8790F2009EA2BE /* iRiver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iRiver.xcdatamodel; sourceTree = "<group>"; };
+		D9A716322A8A102400A09337 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		D9A716352A8A1F1700A09337 /* NavigationBar .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NavigationBar .swift"; sourceTree = "<group>"; };
+		D9A716372A8A266100A09337 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		D9A716392A8A279900A09337 /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
+		D9A7163C2A8A2B1100A09337 /* DiscoverCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverCard.swift; sourceTree = "<group>"; };
+		D9A716432A8A62F700A09337 /* DiscoverLableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverLableScrollView.swift; sourceTree = "<group>"; };
+		D9A716462A8A65FE00A09337 /* DiscoverMusicList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverMusicList.swift; sourceTree = "<group>"; };
+		D9C8F8CC2A89233300F79E17 /* conf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = conf.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +124,7 @@
 				93DCA9EF2A887D0A00B0AA3E /* GoogleSignIn in Frameworks */,
 				93DCA9C52A88780000B0AA3E /* FirebaseAnalytics in Frameworks */,
 				93DCA9F42A887EC500B0AA3E /* Kingfisher in Frameworks */,
+				D9A716422A8A5B4300A09337 /* FASwiftUI in Frameworks */,
 				93DCA9CC2A88781400B0AA3E /* LineSDK in Frameworks */,
 				93DCA9F12A887D0A00B0AA3E /* GoogleSignInSwift in Frameworks */,
 				93DCA9C72A88780000B0AA3E /* FirebaseAuth in Frameworks */,
@@ -130,6 +148,7 @@
 		93DCA9D32A88785F00B0AA3E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D9A716312A8A100E00A09337 /* Discover */,
 				93DCAA212A88824F00B0AA3E /* MusicPlayer */,
 				93DCAA0B2A8881AF00B0AA3E /* Competents */,
 				93DCAA112A8881AF00B0AA3E /* Home */,
@@ -261,6 +280,7 @@
 		D91C4C6D2A8790F1009EA2BE /* iRiver */ = {
 			isa = PBXGroup;
 			children = (
+				D9C8F8CC2A89233300F79E17 /* conf.swift */,
 				93DCA9EC2A887A6800B0AA3E /* Info.plist */,
 				93DCAA022A88816C00B0AA3E /* ModelView */,
 				93DCA9D52A88789D00B0AA3E /* Lib */,
@@ -270,6 +290,7 @@
 				D91C4C6E2A8790F1009EA2BE /* iRiverApp.swift */,
 				D91C4C772A8790F2009EA2BE /* Persistence.swift */,
 				D91C4C722A8790F2009EA2BE /* Assets.xcassets */,
+				D91C4C752A8790F2009EA2BE /* Preview Assets.xcassets */,
 				D91C4C792A8790F2009EA2BE /* iRiver.xcdatamodeld */,
 				D91C4C742A8790F2009EA2BE /* Preview Content */,
 			);
@@ -279,9 +300,46 @@
 		D91C4C742A8790F2009EA2BE /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				D91C4C752A8790F2009EA2BE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D9A716312A8A100E00A09337 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				D9A716342A8A1EF000A09337 /* Comp */,
+				D9A716322A8A102400A09337 /* DiscoverView.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		D9A716342A8A1EF000A09337 /* Comp */ = {
+			isa = PBXGroup;
+			children = (
+				D9A716452A8A65E700A09337 /* List */,
+				D9A7163B2A8A2AF200A09337 /* ScrollView */,
+				D9A716352A8A1F1700A09337 /* NavigationBar .swift */,
+				D9A716372A8A266100A09337 /* Main.swift */,
+			);
+			path = Comp;
+			sourceTree = "<group>";
+		};
+		D9A7163B2A8A2AF200A09337 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				D9A716432A8A62F700A09337 /* DiscoverLableScrollView.swift */,
+				D9A716392A8A279900A09337 /* ScrollView.swift */,
+				D9A7163C2A8A2B1100A09337 /* DiscoverCard.swift */,
+			);
+			path = ScrollView;
+			sourceTree = "<group>";
+		};
+		D9A716452A8A65E700A09337 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				D9A716462A8A65FE00A09337 /* DiscoverMusicList.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,6 +366,7 @@
 				93DCA9EE2A887D0A00B0AA3E /* GoogleSignIn */,
 				93DCA9F02A887D0A00B0AA3E /* GoogleSignInSwift */,
 				93DCA9F32A887EC500B0AA3E /* Kingfisher */,
+				D9A716412A8A5B4300A09337 /* FASwiftUI */,
 			);
 			productName = iRiver;
 			productReference = D91C4C6B2A8790F1009EA2BE /* iRiver.app */;
@@ -342,6 +401,7 @@
 				93DCA9CA2A88781400B0AA3E /* XCRemoteSwiftPackageReference "line-sdk-ios-swift" */,
 				93DCA9ED2A887D0A00B0AA3E /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 				93DCA9F22A887EC500B0AA3E /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				D9A716402A8A5B4300A09337 /* XCRemoteSwiftPackageReference "FASwiftUI" */,
 			);
 			productRefGroup = D91C4C6C2A8790F1009EA2BE /* Products */;
 			projectDirPath = "";
@@ -372,6 +432,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93DCAA082A88818500B0AA3E /* MusicUNNotificationAttachment.swift in Sources */,
+				D9A716332A8A102400A09337 /* DiscoverView.swift in Sources */,
 				93DCA9FC2A88812500B0AA3E /* SwiftUIView.swift in Sources */,
 				93DCAA262A88828700B0AA3E /* musicPlayerView.swift in Sources */,
 				93DCAA202A88824700B0AA3E /* SearchView.swift in Sources */,
@@ -382,11 +443,15 @@
 				93DCA9FB2A88812500B0AA3E /* Fetch.swift in Sources */,
 				93DCAA1D2A8881AF00B0AA3E /* songListView.swift in Sources */,
 				93DCAA302A88830700B0AA3E /* lib.swift in Sources */,
+				D9C8F8CD2A89233300F79E17 /* conf.swift in Sources */,
+				D9A7163A2A8A279900A09337 /* ScrollView.swift in Sources */,
 				93DCA9E42A88794900B0AA3E /* UserProfileView.swift in Sources */,
 				93DCAA1B2A8881AF00B0AA3E /* albumView.swift in Sources */,
 				93DCAA072A88818500B0AA3E /* FetchImage.swift in Sources */,
 				93DCAA272A88828700B0AA3E /* musicPlayerProgressView.swift in Sources */,
 				D91C4C7B2A8790F2009EA2BE /* iRiver.xcdatamodeld in Sources */,
+				D9A716362A8A1F1700A09337 /* NavigationBar .swift in Sources */,
+				D9A716472A8A65FE00A09337 /* DiscoverMusicList.swift in Sources */,
 				D91C4C782A8790F2009EA2BE /* Persistence.swift in Sources */,
 				93DCA9E92A88795700B0AA3E /* MainControl.swift in Sources */,
 				93DCAA322A88881800B0AA3E /* TestControl.swift in Sources */,
@@ -396,8 +461,11 @@
 				93DCAA172A8881AF00B0AA3E /* TabBarView.swift in Sources */,
 				93DCA9FD2A88812500B0AA3E /* Image.swift in Sources */,
 				93DCA9D72A88790200B0AA3E /* Get_IDLib.swift in Sources */,
+				D9A716442A8A62F700A09337 /* DiscoverLableScrollView.swift in Sources */,
 				D91C4C6F2A8790F1009EA2BE /* iRiverApp.swift in Sources */,
+				D9A7163D2A8A2B1100A09337 /* DiscoverCard.swift in Sources */,
 				93DCAA282A88828700B0AA3E /* SmallMusicPlayer.swift in Sources */,
+				D9A716382A8A266100A09337 /* Main.swift in Sources */,
 				93DCAA002A88814B00B0AA3E /* models.swift in Sources */,
 				93DCA9E62A88794900B0AA3E /* TestView.swift in Sources */,
 				93DCAA1C2A8881AF00B0AA3E /* songDetailView.swift in Sources */,
@@ -534,7 +602,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iRiver/Preview Content\"";
-				DEVELOPMENT_TEAM = 3D9N6VGS89;
+				DEVELOPMENT_TEAM = S8TAUN5365;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iRiver/Info.plist;
@@ -543,12 +611,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = iRiver.iSide;
+				PRODUCT_BUNDLE_IDENTIFIER = iRiver.iRiver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -564,7 +633,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iRiver/Preview Content\"";
-				DEVELOPMENT_TEAM = 3D9N6VGS89;
+				DEVELOPMENT_TEAM = S8TAUN5365;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iRiver/Info.plist;
@@ -573,12 +642,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = iRiver.iSide;
+				PRODUCT_BUNDLE_IDENTIFIER = iRiver.iRiver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -642,6 +712,14 @@
 				minimumVersion = 7.0.0;
 			};
 		};
+		D9A716402A8A5B4300A09337 /* XCRemoteSwiftPackageReference "FASwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mattmaddux/FASwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -679,6 +757,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 93DCA9F22A887EC500B0AA3E /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
+		};
+		D9A716412A8A5B4300A09337 /* FASwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9A716402A8A5B4300A09337 /* XCRemoteSwiftPackageReference "FASwiftUI" */;
+			productName = FASwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 

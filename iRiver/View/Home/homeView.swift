@@ -10,6 +10,7 @@ struct HomeView: View {
     @State private var isMusicPlayerVisible = false
 
     var body: some View {
+     
         ZStack {
             if selectedAlbumSet == nil {
                 ScrollView(.vertical) {
@@ -58,25 +59,29 @@ struct HomeView: View {
             }
         }
         .onAppear {
-            DispatchQueue.global().async {
-                let apiManager = APIManager()
-                let url = URL(string: "http://49.213.238.75:5001/api/discover/")!
-
-                apiManager.fetch(url: url) { (result: Result<[AlbumSupuerSet], APIError>) in
-                    switch result {
-                    case .success(let data):
-                        DispatchQueue.main.async {
-                            albumSupuerSet = data
-                        }
-                    case .failure(let error):
-                        print("API error:", error)
-                    }
-                }
-            }
+            fetchData()
         }
         .onReceive(currentData.$selectedIndex) { newSelectedIndex in
             if newSelectedIndex == 0 {
                 currentData.isSongListViewActive = false
+            }
+        }
+    }
+    
+    func fetchData() {
+        DispatchQueue.global().async {
+            let apiManager = APIManager()
+            let url = URL(string: PortConfig.discoverUrl(for: PortConfig.test_user))!
+
+            apiManager.fetch(url: url) { (result: Result<[AlbumSupuerSet], APIError>) in
+                switch result {
+                case .success(let data):
+                    DispatchQueue.main.async {
+                        albumSupuerSet = data
+                    }
+                case .failure(let error):
+                    print("API error:", error)
+                }
             }
         }
     }
