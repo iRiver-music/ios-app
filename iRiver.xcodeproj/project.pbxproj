@@ -610,7 +610,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iRiver/Preview Content\"";
-				DEVELOPMENT_TEAM = S8TAUN5365;
+				DEVELOPMENT_TEAM = 3D9N6VGS89;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iRiver/Info.plist;
@@ -625,7 +625,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = iRiver.iRiver;
+				PRODUCT_BUNDLE_IDENTIFIER = iRiver.iside;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -641,7 +641,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iRiver/Preview Content\"";
-				DEVELOPMENT_TEAM = S8TAUN5365;
+				DEVELOPMENT_TEAM = 3D9N6VGS89;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iRiver/Info.plist;
@@ -656,7 +656,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = iRiver.iRiver;
+				PRODUCT_BUNDLE_IDENTIFIER = iRiver.iside;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
