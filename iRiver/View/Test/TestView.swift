@@ -19,33 +19,51 @@ struct TestView: View {
     }
 
     func loadData() {
-        if let user = Auth.auth().currentUser {
-            user.getIDToken(completion: { (token, error) in
-                if let error = error {
-                    print("獲取 ID Token 錯誤：", error.localizedDescription)
-                    return
-                }
-                if let token = token {
-                    let uid = getCurrentFirebaseUID()!
-                    let invited_by_code = "dbd2707a-0c74-4e80-b035-a743961a507f"
-                    let username = "test0813"
-//                    let uid = "123"
-//                    print("獲取到的  UID  =>", uid)
-//                    print("獲取到的 ID Token：", token)
-                    
-//                    getUserData postUserData
-                    postUserData(firebaseToken: token, uid: uid,invited_by_code: invited_by_code,username: username) { result in
-                        switch result {
-                        case .success(let data):
-                            self.resultText = "Success: \(data)"
-                            print(data)
-                        case .failure(let error):
-                            self.resultText = "Error: \(error)"
-                        }}
-                }
-            })
-        } else {
+        // 檢查是否有當前登入的用戶
+        guard let user = Auth.auth().currentUser else {
             print("用戶未登入")
+            return
         }
+
+        // 獲取用戶的 ID Token
+        user.getIDToken(completion: { (token, error) in
+            // 處理獲取 ID Token 時的錯誤
+            if let error = error {
+                print("獲取 ID Token 錯誤：", error.localizedDescription)
+                return
+            }
+
+            // 確保我們有 token 和 uid
+            guard let token = token, let uid = getCurrentFirebaseUID() else {
+                return
+            }
+
+            // 測試數據
+            let invited_by_code = "dbd2707a-0c74-4e80-b035-a743961a507f"
+            let username = "test0813"
+
+            // 發送 POST 請求
+            postUserData(firebaseToken: token, uid: uid, invited_by_code: invited_by_code, username: username) { result in
+                switch result {
+                case .success(var data):
+                    self.resultText = "Success: \(data)"
+                    if let message = data["mes"] as? String, message == "uid exists" {
+                        // 當帳號存在時，執行 GET 請求來獲取用戶資料
+                        getUserData(firebaseToken: token, uid: uid, invited_by_code: invited_by_code, username: username) { getResult in switch getResult {
+                                case .success(let data2):
+                                    self.resultText = "Success: \(data2)"
+                                    data = data2
+                                case .failure(let getError):
+                                    print("Error getting user data: \(getError)")
+                            }
+                        }
+                    }
+                case .failure(let error):
+                    self.resultText = "Error: \(error)"
+                }
+            }
+        })
     }
+
+    
 }

@@ -44,6 +44,14 @@ struct iRiverApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     var body: some Scene {
         WindowGroup {
+//            UserSettingView(setting: Setting(
+//                audioAutoPlay: 1,
+//                audioQuality: "auto",
+//                language: "ch",
+//                showModal: "auto",
+//                wifiAutoDownload: 0,
+//                uid: "sampleUID"
+//            ))
             TestControl()
         }
     }

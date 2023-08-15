@@ -48,6 +48,8 @@
 		93DCAA2F2A88830700B0AA3E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DCAA2D2A88830700B0AA3E /* MainView.swift */; };
 		93DCAA302A88830700B0AA3E /* lib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DCAA2E2A88830700B0AA3E /* lib.swift */; };
 		93DCAA322A88881800B0AA3E /* TestControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DCAA312A88881800B0AA3E /* TestControl.swift */; };
+		93DCAA342A88992200B0AA3E /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DCAA332A88992200B0AA3E /* UserModel.swift */; };
+		93DCAA362A889EBC00B0AA3E /* UserSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DCAA352A889EBC00B0AA3E /* UserSettingView.swift */; };
 		D91C4C6F2A8790F1009EA2BE /* iRiverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91C4C6E2A8790F1009EA2BE /* iRiverApp.swift */; };
 		D91C4C732A8790F2009EA2BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91C4C722A8790F2009EA2BE /* Assets.xcassets */; };
 		D91C4C762A8790F2009EA2BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91C4C752A8790F2009EA2BE /* Preview Assets.xcassets */; };
@@ -91,6 +93,8 @@
 		93DCAA2D2A88830700B0AA3E /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		93DCAA2E2A88830700B0AA3E /* lib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lib.swift; sourceTree = "<group>"; };
 		93DCAA312A88881800B0AA3E /* TestControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestControl.swift; sourceTree = "<group>"; };
+		93DCAA332A88992200B0AA3E /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		93DCAA352A889EBC00B0AA3E /* UserSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingView.swift; sourceTree = "<group>"; };
 		D91C4C6B2A8790F1009EA2BE /* iRiver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRiver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D91C4C6E2A8790F1009EA2BE /* iRiverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iRiverApp.swift; sourceTree = "<group>"; };
 		D91C4C722A8790F2009EA2BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -145,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				93DCA9FE2A88814B00B0AA3E /* models.swift */,
+				93DCAA332A88992200B0AA3E /* UserModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -186,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				93DCA9E02A88794900B0AA3E /* UserProfileView.swift */,
+				93DCAA352A889EBC00B0AA3E /* UserSettingView.swift */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -373,6 +379,7 @@
 			files = (
 				93DCAA082A88818500B0AA3E /* MusicUNNotificationAttachment.swift in Sources */,
 				93DCA9FC2A88812500B0AA3E /* SwiftUIView.swift in Sources */,
+				93DCAA362A889EBC00B0AA3E /* UserSettingView.swift in Sources */,
 				93DCAA262A88828700B0AA3E /* musicPlayerView.swift in Sources */,
 				93DCAA202A88824700B0AA3E /* SearchView.swift in Sources */,
 				93DCAA1A2A8881AF00B0AA3E /* homeView.swift in Sources */,
@@ -405,6 +412,7 @@
 				93DCA9DF2A88792E00B0AA3E /* UserFunc.swift in Sources */,
 				93DCA9E72A88794900B0AA3E /* ForgotPasswordView.swift in Sources */,
 				93DCAA292A88828700B0AA3E /* BigMusicPlayer.swift in Sources */,
+				93DCAA342A88992200B0AA3E /* UserModel.swift in Sources */,
 				93DCA9DC2A88791800B0AA3E /* APIConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
