@@ -75,3 +75,10 @@ public class CurrentData: ObservableObject {
     @Published var selectedIndex: Int = 0
     @Published var songURL: String = ""
 }
+
+
+
+public class User: ObservableObject {
+    @Published var username: String = "leo"
+    @Published var user_img_url:String = "https://example.com/user_image.jpg"
+}
