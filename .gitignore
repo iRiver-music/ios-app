@@ -3,3 +3,4 @@ iRiver.xcodeproj/project.xcworkspace/xcuserdata/ru.xcuserdatad/UserInterfaceStat
 iRiver.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
 iRiver.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
 *.swift
+iRiver/Lib/UserFunc.swift
